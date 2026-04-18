@@ -1,0 +1,19 @@
+{
+    "name": "ini-nama-project",
+    "version": "1.0.0",
+    "description": "Ini deskripsi project nya",
+    "type": "module",
+    "scripts": {
+        "jalanin": "mocha tests --recursive --timeout 5000 --reporter spec"
+    },
+    "dependencies": {
+        "node-fetch": "^3.3.1"
+    },
+    "devDependencies": {
+        "ajv": "^8.18.0",
+        "chai": "^4.3.8",
+        "mocha": "^10.8.2",
+        "mocha-simple-html-reporter": "^2.0.0",
+        "node-fetch": "^3.3.1"
+    }
+}
